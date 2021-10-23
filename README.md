@@ -38,7 +38,7 @@ git push
 ```
 # Ссылки на софт:
 ### Git: 
-[git-scm.com](https://git-scm.com/)
+[git-scm.com](https://git-scm.com/)git 
 ### Visual Studio
 [code.visualstudio.com](https://code.visualstudio.com/)
 
