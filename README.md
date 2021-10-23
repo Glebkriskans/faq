@@ -1,6 +1,45 @@
-# info
-git clone <url>  (для скачки проекта)
-  (команды для сохранения)
-git add .   
-git commit -m "..." (комментарий)   
-git push (отправить обратно в репозиторий)
+# Горячие клавиши:
+#### Коппировать: 
+```bash
+Ctrl+C
+```
+#### Вставить: 
+```bash
+Ctrl+V
+```
+#### Сохранить: 
+```bash
+Ctrl+S
+```
+#### Вырезать: 
+```bash
+Ctrl+X
+```
+#### Отмена: 
+```bash
+Ctrl+Z
+```
+# Работа с git
+### Скачать проект:
+```bash
+git clone <url>
+```
+### Учесть все файлы:
+```bash
+git add .  
+```
+### Сохранить коммит:
+```bash
+git commit -m "..." 
+```
+### Отправить в облако:  
+```bash
+git push
+```
+# Ссылки на софт:
+### Git: 
+[git-scm.com](https://git-scm.com/)
+### Visual Studio
+[code.visualstudio.com](https://code.visualstudio.com/)
+
+
