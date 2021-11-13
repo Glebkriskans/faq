@@ -42,4 +42,7 @@ git push
 ### Visual Studio
 [code.visualstudio.com](https://code.visualstudio.com/)
 
+# Информация:
+[html5bool анимация](https://html5book.ru/css3-animation/)
+
 
