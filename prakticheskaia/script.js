@@ -11,10 +11,22 @@ function clickCube(){
     "0 0 100px rgba(" + red + "," + green + "," + blue + ", .5)," +
     "0 0 200px rgba(" + red + "," + green + "," + blue + ", .5)," +
     "0 0 300px rgba(" + red + "," + green + "," + blue + ", .5)"
-
     document.getElementById("circle").style.boxShadow = stringBoxShadow;
+    
+    var wid = gerRandomInt(500);
+    var hei = gerRandomInt(500);
+    
+    document.getElementById('circle').style.Width = " ("+ wid +"px)"; 
+    document.getElementById("circle").style.height = " ("+ hei +"px)";
 
-   
+    
+
+    //var radius = gerRandomInt(50);
+    //document.getElementById("circle").style.borderRadius = " (" + radius + " %)";
+
+    
+
+    
 }
 
 function gerRandomInt(max){
