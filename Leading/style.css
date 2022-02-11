@@ -80,7 +80,9 @@ html, body {
     margin-left: 24px;
     opacity: 0.5;
     transition: opacity 0.25s ;
-    cursor: pointer;;
+    cursor: pointer;
+    color:  white;
+    text-decoration: none;
 }
 
 .Menu__link:hover{
@@ -133,22 +135,105 @@ html, body {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start; 
 }
-
 .List__element{
-
+    
 }
 
 .Element__img{
+    margin-bottom: 12px;
+}
 
+.Element__img img{
+    border-radius: 20px;
 }
 
 .Element__title{
-
+    width: 100%;
+    padding:  0 12px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .Element__info{
+    width: 100%;
+    padding:  0 12px;
+    box-sizing: border-box;
+}
 
+.Content__map{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.Map__info{}
+
+.info__item{
+    margin-bottom: 24px;
+}
+
+.item__title{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.item__info{}
+
+.Map__image{}
+
+.Content__table{}
+
+.Table{
+    width: 100%;
+    text-align: left;
+    border: 2px solid #cdcdcd;
+    border-collapse: collapse;
+}
+
+.Table__tr{}
+
+.Table__th{
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 900;
+    border: 2px solid #cdcdcd;
+}
+
+.Table__td{
+    padding: 24px;
+    border: 2px solid #cdcdcd;
+}
+
+.Content__form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.Form__input{
+    border: 2px solid #cdcdcd;
+    padding: 20px 24px;
+    font-size: 20px;
+    width: 100%;
+    margin-right: 24px;
+}
+
+.Form__button{
+    background-color: #0149c2;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    padding: 20px 24px;
+    cursor: pointer;
 }

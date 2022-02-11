@@ -24,11 +24,11 @@
                         <img src="images/images/logotype_white.png" />
                     </div>
                     <div class="Header__menu">
-                        <a class="Menu__link">Информация </a>
-                        <a class="Menu__link">Список </a>
-                        <a class="Menu__link">Таблица </a>
-                        <a class="Menu__link">Форма </a>
-                        <a class="Menu__link">Карта </a>
+                        <a class="Menu__link" href="#info">Информация</a>
+                        <a class="Menu__link" href="#spisok">Список </a>
+                        <a class="Menu__link" href="#table" >Таблица </a>
+                        <a class="Menu__link" href="#form">Форма </a>
+                        <a class="Menu__link" href="#map">Карта </a>
                     </div>
                 </div>
                 <div class="Section__slider">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="Landing__section">
+        <div class="Landing__section" id="info">
             <div class="Section Section_p-72">
                 <div class="Section__title">
                     Информация
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="Landing__section">
+        <div class="Landing__section" id="spisok">
             <div class="Section Section_p-72">
                 <div class="Section__title">
                     Список
@@ -116,24 +116,97 @@
                 </div>
             </div>
         </div>
-        <div class="Landing__section">
+        <div class="Landing__section"  id="table">
             <div class="Section Section_p-72">
                 <div class="Section__title">
                     Таблица
                 </div>
+                <div class="Section__content">
+                    <div class="Content__table">
+                        <table class="Table">
+                            <thead>
+                                <tr class="Table__tr">
+                                    <th class="Table__th">
+                                        Заголовок 1
+                                    </th>
+                                    <th colspan="2" class="Table__th">
+                                        Заголовок 2
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="Table__tr">
+                                    <td class="Table__td">
+                                        Информация 1
+                                    </td>
+                                    <td class="Table__td">
+                                        Информация 2
+                                    </td>
+                                    <td class="Table__td">
+                                        Информация 3
+                                    </td>
+                                </tr>
+                                <tr class="Table__tr">
+                                    <td class="Table__td">
+                                        Информация 1
+                                    </td>
+                                    <td class="Table__td">
+                                        Информация 2
+                                    </td>
+                                    <td class="Table__td">
+                                        Информация 3
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="Landing__section">
+        <div class="Landing__section" id="form">
             <div class="Section Section_p-72">
                 <div class="Section__title">
                     Форма
                 </div>
+                <div class="Section__content">
+                    <form class="Content__form">
+                        <input class="Form__input" type="text" placeholder="Поле 1" />
+                        <input class="Form__input" type="text" placeholder="Поле 2" />
+                        <button class="Form__button">Кнопка</button>
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="Landing__section">
+        <div class="Landing__section" id="map">
             <div class="Section Section_p-72">
                 <div class="Section__title">
                     Карта
+                </div>
+                <div class="Section__content">
+                    <div class="Content__map">
+                        <div class="Map__info">
+                            <div class="info__item">
+                                <div class="item__title">
+                                    Телефон
+                                </div>
+                                <div class="item__info">
+                                    +7 (999) 123-45-67
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="item__title">
+                                    Адрес
+                                </div>
+                                <div class="item__info">
+                                    Город, Улица 1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Map__image">
+                            <img
+                                src="http://static.maps.2gis.com/1.0?zoom=15&size=500,350&markers=56.32205,58.038603" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
